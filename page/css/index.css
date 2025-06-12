@@ -1,0 +1,369 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+:root {
+    --b-100: hsl(0, 0%, 0%);
+    --b-200: hsl(0, 0%, 10%);
+    --b-250: hsl(0, 0%, 20%);
+    --b-300: hsl(0, 0%, 30%);
+    --b-400: hsl(0, 0%, 45%);
+    --b-500: hsl(0, 0%, 60%);
+    --b-600: hsl(0, 0%, 65%);
+    --b-700: hsl(0, 0%, 80%);
+
+    --fore: #ffffff;
+    --high1: rgb(13, 201, 129);
+    --high2: rgb(236, 36, 70);
+
+    --side_button_fore: hsl(0, 0%, 0%);
+    --station_menu_fore: hsl(0, 0%, 100%);
+    --station_menu_back: hsla(0, 0%, 7%, 0.596);
+    --gauge_back: hsla(157, 89%, 46%, 0.089);
+    --station_menu_overlay: hsla(0, 0%, 0%, 0.761);
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background-color: var(--b-100);
+    color: var(--fore);
+    padding: 0;
+}
+
+/* Buttons an der Seite */
+.side-button {
+    position: fixed;
+    display: none; /* flex */
+    align-items: center;
+    fill: var(--side_button_fore);
+    width: 1.7em;
+    height: 1.7em;
+    padding: 0.6em;
+    right: 0.6em;
+    background-color: var(--high1);
+    border-radius: 50%;
+    z-index: 50;
+    cursor: pointer;
+}
+.side-button svg {
+    width: 100%;
+    width: 100%;
+}
+
+#scroll-up-button {
+    bottom: 7.6em;
+}
+#scroll-down-button {
+    bottom: 4.2em;
+    transform: rotate(180deg);
+}
+#add-station-button {
+    bottom: 0.6em;
+}
+
+/* dialog */
+.dialog {
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--station_menu_overlay);
+    display: none; /* flex */
+    justify-content: center; /* horizontal */
+    align-items: center;
+}
+.d_window {
+    position: relative;
+    background-color: var(--b-200);
+    border-radius: 0.3em;
+    padding: 0.6em;
+    height: fit-content;
+    font-size: 1.2em;
+    max-width: calc(100vw - 5em);
+    max-height: calc(100vh - 5em);
+    overflow-y: scroll;
+}
+
+.d_close {
+    cursor: pointer;
+}
+.d_close > svg {
+    fill: var(--high1);
+    width: 1em;
+    position: absolute;
+    right: 0.5em;
+}
+
+.d_title {
+    color: var(--high1);
+    font-size: 1.3em;
+}
+
+.d_text {
+    background-color: var(--b-200);
+    color: var(--fore);
+    outline: none;
+    border: 0.1em solid var(--high1);
+    border-radius: 0.2em;
+    font-size: 0.8em;
+    margin: 0.2em;
+    padding: 0.15em 0.3em;
+}
+.d_button {
+    background-color: var(--high1);
+    color: var(--b-100);
+    outline: none;
+    border: 0.1em solid var(--high1);
+    border-radius: 0.2em;
+    font-size: 0.8em;
+    margin: 0.2em;
+    padding: 0.15em 0.6em;
+}
+
+/* station menu dialog */
+.sm_field_label {
+    display: inline-block;
+    width: 7em;
+}
+
+.sm_control {
+    margin-top: 0.5em;
+}
+
+.sm_delete {
+    background-color: var(--high2);
+    border: 0.1em solid var(--high2);
+}
+
+.sm_copy {
+    margin-top: 1.5em;
+} */
+
+/* load m3u dialog */
+.lm_load {
+    margin-left: 0;
+    margin-top: 0.6em;
+}
+
+/* source switch */
+#sourceSwitch {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: var(--b-200);
+    border-bottom: 2px solid var(--b-100);
+    cursor: pointer;
+}
+
+.source {
+    height: 20vw;
+    max-height: 10vh;
+    fill: var(--high1);
+}
+
+#external-source {
+    display: none;
+}
+
+#audio-trafic {
+    height: 20vw;
+    max-height: 10vh;
+}
+
+/* top */
+#top {
+    position: sticky;
+    top: 0;
+    z-index: 900;
+    margin-bottom: 0.5em;
+}
+
+/* menu */
+#menu {
+    background-color: var(--b-200);
+    display: flex;
+    align-items: center; /* vertikal */
+    justify-content: center; /* horizontal */
+    flex-wrap: wrap;
+    padding: 0.3em;
+    border-bottom: 2px solid var(--b-100);
+}
+
+#menu-buttons {
+    display: flex;
+    align-items: center; /* vertikal */
+    justify-content: center; /* horizontal */
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    border: 2px solid var(--high1);
+    background-color: var(--b-200);
+    border-radius: 5px;
+    height: 2em;
+    font-size: 0.95em;
+    padding: 0.4em;
+    margin: 0.4em;
+    display: flex;
+    align-items: center; /* vertikal */
+    justify-content: space-evenly; /* horizontal */
+    cursor: pointer;
+    outline: none;
+}
+
+.menu-item-icon {
+    height: 1em;
+    fill: var(--high1);
+}
+
+.menu-item-text {
+    padding-left: 0.5em;
+    color: var(--high1);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* now playing info */
+#now-playing {
+    background-color: var(--b-200);
+    display: none; /* block */
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+}
+
+/* stations */
+#stationHolder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.station {
+    border-radius: 5px;
+    background-color: var(--b-200);
+    width: 11em;
+    margin: 1em;
+    padding: 0.6em 0.6em 0 0.6em;
+    text-align: right;
+}
+
+.station-icon-holder {
+    position: relative;
+}
+
+.station-control-holder {
+    position: absolute;
+    background-color: var(--station_menu_back);
+    border-radius: 10px;
+    width: 10em;
+    height: 3em;
+    bottom: 0;
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.station-control-menu {
+    height: 1.5em;
+    padding: 0 0.5em 0 0.5em;
+    fill: var(--station_menu_fore);
+    cursor: pointer;
+}
+.station-control-moveButton-up {
+    fill: var(--station_menu_fore);
+    height: 1.3em;
+    cursor: pointer;
+}
+.station-control-moveButton-down {
+    fill: var(--station_menu_fore);
+    transform: rotate(180deg);
+    height: 1.3em;
+    cursor: pointer;
+}
+
+.station-icon {
+    height: 11em;
+    max-width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* hardware */
+#hardwareHolder {
+    background-color: var(--b-200);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+#hardware-reload {
+    background-color: var(--b-200);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+/* meter */
+.meter {
+    background-color: var(--b-200);
+    width: 11em;
+    max-width: 250px;
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+.meter-title {
+    margin: 0;
+    margin-bottom: 0.6em;
+    font-size: 1em;
+}
+
+.meter-body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background: var(--gauge_back);
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+}
+
+.meter-fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: var(--high1);
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+}
+
+.meter-value {
+    width: 75%;
+    height: 150%;
+    background: var(--b-200);
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* Text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}

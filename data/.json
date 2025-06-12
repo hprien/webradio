@@ -1,0 +1,142 @@
+{
+    "stations": [
+        {
+            "name": "RSH",
+            "streamURL": "http://rsh.hoerradar.de/rsh128?sABC=6042898n%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernzf.efu.qr&=&amsparams=playerid:streams.rsh.de;skey:1614973322",
+            "icon": "http://aggregatorservice.loverad.io/wp-content/uploads/2018/10/rsh_live_600x600.png",
+            "position": 4
+        },
+        {
+            "name": "Ö3",
+            "streamURL": "http://ors-sn09.ors-shoutcast.at/oe3-q1a",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Hitradio_%C3%963.svg",
+            "position": 20
+        },
+        {
+            "name": "Nora Oldie Party",
+            "streamURL": "http://radiohost.norawebstreams.de/nora-oldieparty/mp3-128/?sABC=60428n06%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernzf.abenjrofgernzf.qr&=&amsparams=playerid:streams.norawebstreams.de;skey:1614973446",
+            "icon": "http://aggregatorservice.loverad.io/wp-content/uploads/2018/10/nora_oldie-party_600x600.png",
+            "position": 8
+        },
+        {
+            "name": "Nora 80er",
+            "streamURL": "http://radiohost.norawebstreams.de/nora-80er/mp3-128/?sABC=6159p8sn%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.abenjrofgernzf.qr&=&amsparams=playerid:streams.norawebstreams.de;skey:1633274106",
+            "icon": "http://aggregatorservice.loverad.io/wp-content/uploads/2018/10/nora_80er_600x600.png",
+            "position": 9
+        },
+        {
+            "name": "Nora Oldies 60er & 70er",
+            "streamURL": "http://radiohost.norawebstreams.de/nora-oldies/mp3-128/?sABC=603n8485%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernzf.abenjrofgernzf.qr&=&amsparams=playerid:streams.norawebstreams.de;skey:1614447749",
+            "icon": "http://aggregatorservice.loverad.io/wp-content/uploads/2018/10/nora_oldies_600x600.png",
+            "position": 10
+        },
+        {
+            "name": "Sunshine Live",
+            "streamURL": "https://sunshinelive.hoerradar.de/sunshinelive-mp3-128?sABC=603o937q%230%234p6s5r688n8s4p3sop7886sq96rq71s8%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614517117",
+            "icon": "https://media.streamabc.com/sunshine-live/live/600x600__sunshine_live_colored.png",
+            "position": 11
+        },
+        {
+            "name": "Sunshine Live 80er",
+            "streamURL": "https://sunsl.streamabc.net/sunsl-sunsl6eifqasv1fngh-mp3-128-8807311?sABC=603o9554%230%234p6s5r688n8s4p3sop7886sq96rq71s8%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614517588",
+            "icon": "https://media.streamabc.com/sunshine-live/live/600x600__sunshine_live_colored.png",
+            "position": 12
+        },
+        {
+            "name": "Sunshine Live 90er",
+            "streamURL": "https://sunshinelive.hoerradar.de/sunshinelive-90er-mp3-mq?sABC=603oq384%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614533508",
+            "icon": "https://media.streamabc.com/sunshine-live/90er/600x600__sunshine_liveDie_90er_colored.png",
+            "position": 13
+        },
+        {
+            "name": "Sunshine Live Classics",
+            "streamURL": "https://sunshinelive.hoerradar.de/sunshine-classics-mp3-128?sABC=603oq734%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614534452",
+            "icon": "https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/2e/54/21208/1/c175.png",
+            "position": 14
+        },
+        {
+            "name": "Sunshine Live EDM",
+            "streamURL": "https://sunshinelive.hoerradar.de/sunshinelive-edm-mp3-mq?sABC=603oq4ns%230%234p6s5r688n8s4p3sop7886sq96rq71s8%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614533807",
+            "icon": "https://media.streamabc.com/sunshine-live/edm/600x600__sunshine_live_EDM_colored.png",
+            "position": 15
+        },
+        {
+            "name": "Sunshine Live Remix",
+            "streamURL": "https://sunsl.streamabc.net/sunsl-remix-mp3-128-3260588?sABC=603os456%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614541910",
+            "icon": "https://media.streamabc.com/sunshine-live/live/600x600__sunshine_live_colored.png",
+            "position": 18
+        },
+        {
+            "name": "Sunshine Live Techno",
+            "streamURL": "https://sunshinelive.hoerradar.de/sunshinelive-techno-mp3-mq?sABC=603os490%230%234p6s5r688n8s4p3sop7886sq96rq71s8%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614541968",
+            "icon": "https://media.streamabc.com/sunshine-live/techno/600x600__sunshine_live_Techno_colored.png",
+            "position": 16
+        },
+        {
+            "name": "Sunshine Live Best of 20 Years",
+            "streamURL": "https://sunsl.streamabc.net/sunsl-bestof20-mp3-128-6232428?sABC=603q0noo%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernz.fhafuvar-yvir.qr&=&amsparams=playerid:stream.sunshine-live.de;skey:1614613179",
+            "icon": "https://media.streamabc.com/sunshine-live/live/600x600__sunshine_live_colored.png",
+            "position": 17
+        },
+        {
+            "name": "Hitradio-Ohr",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-100-mp3-mq?sABC=605737s8%230%23s4rs0n7r3rp50o575qn680q45s60q8p6%23fgernzf.80f80f.qr&=&amsparams=playerid:streams.80s80s.de;skey:1616328696",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Hitradioohr_logo.svg",
+            "position": 19
+        },
+        {
+            "name": "80s80s",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-mweb-mp3-mq?sABC=6159nr1s%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&=&amsparams=playerid:streams.80s80s.de;skey:1633267231",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 1
+        },
+        {
+            "name": "80s80s Depeche Mode",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-dm-mp3-mq?sABC=6159p9o6%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&=&amsparams=playerid:streams.80s80s.de;skey:1633274294",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 21
+        },
+        {
+            "name": "Nora Webstream",
+            "streamURL": "http://radiohost.norawebstreams.de/nora-main/mp3-128/?sABC=6159s571%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.abenjrofgernzf.qr&=&amsparams=playerid:streams.norawebstreams.de;skey:1633285489",
+            "icon": "http://aggregatorservice.loverad.io/wp-content/uploads/2018/10/nora_webstream_600x600.png",
+            "position": 3
+        },
+        {
+            "name": "80s80s Christmas",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-event01-mp3-mq?sABC=615o2r02%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&=&amsparams=playerid:streams.80s80s.de;skey:1633365506",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 22
+        },
+        {
+            "name": "80s80s Deutsch",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-deutsch-mp3-mq?sABC=615o2r72%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&=&amsparams=playerid:streams.80s80s.de;skey:1633365618",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 2
+        },
+        {
+            "name": "80s80s Jackson",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-micjac-mp3-mq?sABC=615o302o%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&=&amsparams=playerid:streams.80s80s.de;skey:1633366059",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 23
+        },
+        {
+            "name": "80s80s Maxi",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-mweb-mp3-mq?sABC=617p4220%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&amsparams=playerid:streams.80s80s.de;skey:1635533344",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 6
+        },
+        {
+            "name": "80s80s Love",
+            "streamURL": "http://80s80s.hoerradar.de/80s80s-love-mp3-mq?sABC=617q6868%230%23r439n029np28or6213s043514o0o5n9r%23fgernzf.80f80f.qr&amsparams=playerid:streams.80s80s.de;skey:1635608680",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/1400x1400_80s80s_bg-black_colored.png",
+            "position": 7
+        },
+        {
+            "name": "Welle Nord",
+            "streamURL": "http://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/9/90/NDR_1_Welle_Nord_Logo.svg",
+            "position": 5
+        }
+    ]
+}
